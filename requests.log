@@ -1,0 +1,7 @@
+2022-06-25 11:01:11.276439: function: converter, incoming arguments: ((500, 'USD'), {}), result: 9.38
+2022-06-25 11:01:21.658831: function: converter, incoming arguments: ((1000, 'TRY'), {}), result: 325.73
+2022-06-25 11:01:28.613127: function: converter, incoming arguments: ((100, 'EUR'), {}), result: 1.79
+2022-06-25 11:01:34.964626: function: converter, incoming arguments: ((25000, 'CNY'), {}), result: 3117.21
+2022-06-25 11:01:42.600076: function: converter, incoming arguments: ((9000, 'ZBR'), {}), result: Данных о валюте ZBR нет.
+2022-06-25 11:01:48.874092: function: converter, incoming arguments: ((7000, 'PLN'), {}), result: 586.26
+2022-06-25 11:01:56.089701: function: converter, incoming arguments: ((100000, 'BRL'), {}), result: 9718.17
