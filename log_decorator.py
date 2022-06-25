@@ -7,7 +7,7 @@ def log_decorator(file_path):
             result = old_func(*args, **kwargs)
             datetime.now()
             req_line = f"{datetime.now()}: function: {old_func.__name__}, incoming arguments: {arguments_in}, result: {result}\n"
-            with open(file_path, "a") as file:
+            with open(file_path, "a", encoding="utf-8") as file:
                 file.write(req_line)
                 file.close()
             return result
