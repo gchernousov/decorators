@@ -16,10 +16,10 @@ CURRENCY_DICT = {
 
 
 @log_decorator("requests.log")
-def converter(RUB: int, currency: str):
+def converter(rub: int, currency: str):
     if currency in CURRENCY_DICT:
         v = CURRENCY_DICT[currency]
-        result = RUB / v
+        result = rub / v
         return round(result, 2)
     else:
         return f"Данных о валюте {currency} нет."
